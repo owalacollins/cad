@@ -1,0 +1,169 @@
+
+ header{
+     height: auto;
+    background-image: url(image3.jpg);
+    background-position: center;
+    background-size: cover;
+   
+ }
+ .heading img{
+     height:2em;
+ }
+h4{
+     display: inline;
+     color: rgb(76, 175, 45);
+ }
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: fuchsia;
+    font-family: fantasy;
+
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: serif;
+   
+}
+h3{
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+   
+}
+.class{
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 5px 50px;
+    background: transparent;
+    border: 1px rgb(11, 252, 240) solid;
+    color: rgb(3, 1, 1);
+    box-shadow: 5px 5px  3px 3px green;
+  
+}
+.overlay{
+   padding: 20px;
+   background-color: black;
+   opacity: 0.7; 
+}
+.paragraph{
+   margin: 20px  auto;
+    color: darkkhaki;
+    width: 70%;
+    text-align: center;
+    
+}
+.responsive{
+  display: inline-block;
+    width: 15%;
+    margin: 30px;
+    
+}
+.gallery{
+    border: black solid 1px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgb(80, 77, 77);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    text-align: center;
+    padding: 3px;
+
+}
+.desc p{
+    display: inline-block;
+    width: 90%;
+    color: blue;
+}
+.quote{
+        display: flex;
+        justify-content: space-around;
+    }
+.topics{
+    display: flex;
+    justify-content: space-around;
+
+}
+.topics ul{
+        float:left;
+    }
+.topics li{
+    list-style-type: square;
+    color: chocolate;
+    margin: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: #868686;
+    padding: 20px;
+    margin: 0;
+}
+.container{
+    max-width: 760px;
+    margin: auto;
+    padding: 10px;
+}
+h5{
+    margin: 5px;
+    left: 30px;
+    text-decoration: underline;
+}
+h6{
+color: rgb(80, 77, 77);
+text-align: center;
+}
+.row{
+ display: flex;
+ flex-wrap: wrap;
+}
+.column{
+    width: 50%;
+    
+}
+.column li,a{
+    list-style: none;
+    color: aliceblue;
+    margin: 10px;
+}
+
+@media screen and (max-width:480px){
+header .overlay{
+    height: 100vh;  
+}
+h2{
+font-size: 4vh;
+}
+h2, h1, h3{
+   margin-top: 50px; 
+}
+.responsive{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+.quote{
+    display: flex;
+    justify-content: none;
+    flex-direction: column;
+}
+.topics{
+    display: flex;
+    flex-direction: column;
+}
+.topics li {
+    margin: 5px 20px;
+}
+.column{
+    width: 100%;
+    margin: 10px;
+}
+}
