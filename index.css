@@ -18,15 +18,15 @@ h4{
  }
 h1{
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     color: fuchsia;
-    font-family: fantasy;
+    font-family: 'Teko', sans-serif;
 
 }
 h2{
     text-align: center;
     color: rgb(78, 26, 26);
-    font-family: serif;
+    font-family: 'Teko', sans-serif;
    
 }
 h3{
@@ -115,6 +115,8 @@ img{
     color: darkkhaki;
     width: 70%;
     text-align: center;
+    font-family: 'Staatliches', cursive;
+font-family: 'Teko', sans-serif;
     
 }
 .responsive{
@@ -142,7 +144,9 @@ img{
     display: inline-block;
     width: 90%;
     color: blue;
-   
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Teko', sans-serif;
 }
 .quote{
         display: flex;
@@ -197,6 +201,9 @@ text-align: center;
     list-style: none;
     color: aliceblue;
     margin: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Teko', sans-serif;
 }
 
 @media screen and (max-width:480px){
