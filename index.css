@@ -138,7 +138,9 @@ font-family: 'Teko', sans-serif;
 }
 .desc{
     text-align: center;
+    
     padding: 3px;
+
    
 }
 .desc p{
@@ -171,6 +173,7 @@ a{
     text-decoration: none;
 }
 footer{
+    clear: both;
     background-color: black;
     color: #868686;
     padding: 20px;

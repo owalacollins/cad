@@ -1,0 +1,22 @@
+
+body{
+    background-image: url(../images/Modern\ Water\ Tower.jpg);
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+    
+}
+.bat{
+    padding: 10px;
+    background: transparent;
+    border-radius: 10px;
+    color: rgb(95, 179, 0);
+
+}
+.regista{
+    border: 1px red solid;
+    padding: 20px;
+    margin: 20px;
+}
+
